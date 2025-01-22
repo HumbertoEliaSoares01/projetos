@@ -1,0 +1,75 @@
+body{
+    color: red;
+}
+div{
+    background-color: rgba(255, 255, 0, 0.507);
+    height: 100px; width: 100px;
+    border: 2px solid red;
+    margin: 20px;
+    text-align: center;
+    line-height: 100px;
+    color: red;
+    font-size: 1.5em;
+    border-radius: 50%;
+}
+.div1:hover{
+    transform: scale(1.5);
+    transition: 2s;
+}
+.div2:hover{
+    transform: translate(50%);
+    transition: 2s;
+}
+.div3:hover{
+    transform: rotate(45deg);
+    transition: 2s;
+}
+.div4:hover{
+    transform: translate(50%) rotate(45deg);
+    transition: 2s;
+}
+
+#pDiv1{
+    font-size: 3em;
+    position: absolute;
+    top: -10px; left: 150px;
+}
+#pDiv2{
+    font-size: 3em;
+    position: absolute;
+    top: 130px; left: 150px;
+}
+#pDiv3{
+    font-size: 3em;
+    position: absolute;
+    top: 280px; left: 150px;
+}
+#pDiv4{
+    font-size: 3em;
+    position: absolute;
+    top: 410px; left: 150px;
+}
+
+
+footer{
+    text-align: center;
+    border-top: 4px solid red;
+    font-size: 2em;
+    padding: 10px;
+}
+footer a{
+    color: red;
+}
+footer p{
+    margin: 0px auto;
+    padding: 10px;
+}
+footer p:hover{
+    transform: scale(1.5);
+    transition: 1s;
+}
+hr{
+    border-color: red;
+    width: 700px;
+    border-width: 2px;
+}

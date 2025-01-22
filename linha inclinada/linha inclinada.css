@@ -1,0 +1,61 @@
+html{
+    background-image: radial-gradient(circle, rgb(255,255,255)60%, rgb(224, 129, 129));
+    color: rgb(224, 129, 129);        
+}
+div{
+    height: 200px;
+    margin: 150px 100px 0px 400px;
+}
+h1 {
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+footer{
+    padding: 20px;
+    border-top: 2px solid rgb(224, 129, 129);
+    text-align: center;
+    font-size: 2em;
+}
+footer > a{
+    padding: 10px 50px;
+}
+footer > a > img{
+    width: 5%;
+    padding: 5px 10px;
+}
+header{
+    padding: 20px;
+    border-bottom: 2px solid rgb(224, 129, 129);
+    text-align: center;
+    font-size: 2em;
+}
+
+#hrUm{
+    border-color: red; 
+    transform: rotate(30deg) translate(-150px, 150px); 
+}
+#hrDois{
+    border-color: green;
+    transform: rotate(60deg) translate(0px, -200px); 
+}
+#hrTres{
+    border-color: blue;
+    transform: rotate(45deg) translate(-150px, -150px); 
+}
+#hrUm:hover{
+    transform: rotate(45deg); 
+    transform: rotate(-45deg); 
+    transition: 2s;
+}
+#hrDois:hover{
+    transform: rotate(45deg); 
+    transform: rotate(-45deg); 
+    transition: 2s;
+}
+#hrTres:hover{
+    transform: rotate(45deg); 
+    transform: rotate(-45deg); 
+    transition: 2s;
+}
