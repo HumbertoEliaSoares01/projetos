@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercício 001.html</title>
+    <link rel="stylesheet" href="css/exercício 001.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Boas Vindas</h1>
+        <p>Vamos personalisar a saudação usando JavaScript</p>
+        <div id="mensagemSaudacao" class="saudacao">Olá visitante</div>
+        <button onclick="mudarNome()">Personalizar Saudação</button>
+    </div>
+
+    <script>
+        function mudarNome(){
+            let nome = 'Rafaella'
+            window.document.getElementById('mensagemSaudacao').textContent = `Olá, ${nome}`;
+        }
+    </script>
+    
+</body>
+</html>
+
+<!--
+<!DOCTYPE html >
+< html  lang =" pt-BR " >
+< cabeça >
+  < meta  charset =" UTF-8 " >
+  < meta  name =" viewport " content =" width=largura-do-dispositivo, escala-inicial=1.0 " >
+  < title > Página inicial </ title >
+</ cabeça >
+< corpo >
+  < div >
+    < h1 > Boas vindas! </ h1 >
+    < p > Vamos personalizar sua saudação usando JavaScript! </ p >
+    <div> Olá, visitante ! </div>​​
+  </div>​​
+</ corpo >
+</ html >
+-->
